@@ -2,7 +2,11 @@
 @media (max-width: 1024px) {}
 
 /* Tablet responsive */
-@media (max-width: 740px) and (min-width: 1023px) {}
+@media (min-width: 740px) and (max-width: 1023px) {
+    .contact-info {
+        line-height: 2;
+    }
+}
 
 /* Monile vs pc responsive */
 @media (min-width: 740px) {
@@ -34,9 +38,7 @@
         padding: 12px 0;
         display: inline-block;
     }
-}
     
-}
 /* Mobile responsive */
 @media (max-width: 740px) {
     #header {
