@@ -11,6 +11,32 @@
     }
 }
 
+/* Tablet vs mobile */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    
+
+    .social-list {
+        font-size: 48px;
+    }
+
+    #footer .social-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copy-right a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+    
+}
 /* Mobile responsive */
 @media (max-width: 740px) {
     #header {
@@ -59,4 +85,13 @@
     .mb-mt-8 {
         margin-top: 8px;
     }
+
+    .btn {
+        width: 100%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+
 }
